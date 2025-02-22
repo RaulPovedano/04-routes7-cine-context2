@@ -5,13 +5,12 @@ const RootLayout = () => {
     const { user, logout } = useAuth();
     const location = useLocation();
 
-    // Allow access only to login and register when not authenticated
     const publicRoutes = ['/', '/login', '/register'];
     if (!user && !publicRoutes.includes(location.pathname)) {
         return <Navigate to="/" replace/>;
     }
 
-    // Redirect authenticated users away from login/register
+    
     if (user && publicRoutes.includes(location.pathname)) {
         return <Navigate to="/home" replace/>;
     }

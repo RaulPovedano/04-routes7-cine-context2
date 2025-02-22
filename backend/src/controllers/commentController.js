@@ -21,7 +21,6 @@ export const getUserComments = async (req, res) => {
         const comments = await Comment.find({ userId })
             .sort({ createdAt: -1 });
 
-        // Fetch movie details for each comment
         const commentsWithMovies = await Promise.all(
             comments.map(async (comment) => {
                 try {

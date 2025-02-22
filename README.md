@@ -24,13 +24,19 @@ Aplicación web de películas que permite explorar el catálogo de TMDB, ver det
 
 1. Clona el repositorio:
 
-
 ```bash
-#HTTPS:
+# HTTPS:
 git clone <https://github.com/RaulPovedano/04-routes7-cine-context2.git>
 cd 04-routes7-cine-context2
 
 # SSH:
-
 git clone <git@github.com:RaulPovedano/04-routes7-cine-context2.git>
 cd 04-routes7-cine-context2
+```
+
+2. Levantar Proyecto:
+
+```bash
+docker-compose up --build
+```
+
