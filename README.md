@@ -16,13 +16,21 @@ Aplicación web de películas que permite explorar el catálogo de TMDB, ver det
 
 ### Requisitos previos
 
-- Node.js 18+
+- Node.js
 - MongoDB
 - API Key de TMDB
 
 ### Configuración
 
 1. Clona el repositorio:
+
+
 ```bash
-git clone <url-repositorio>
+#HTTPS:
+git clone <https://github.com/RaulPovedano/04-routes7-cine-context2.git>
+cd 04-routes7-cine-context2
+
+# SSH:
+
+git clone <git@github.com:RaulPovedano/04-routes7-cine-context2.git>
 cd 04-routes7-cine-context2

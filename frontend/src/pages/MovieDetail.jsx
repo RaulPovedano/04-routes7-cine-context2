@@ -33,8 +33,7 @@ const MovieDetail = () => {
 
     return (
         <div className="container mx-auto px-4 py-8">
-            {/* Backdrop Image */}
-            <div className="relative w-full h-[400px] mb-8 rounded-lg overflow-hidden">
+            <div className="relative w-full h-[600px] mb-8 rounded-lg overflow-hidden">
                 <img 
                     src={getImageUrl(movie?.backdrop_path, "original")} 
                     alt={movie?.title} 

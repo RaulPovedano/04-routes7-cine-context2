@@ -58,7 +58,6 @@ const fetchFromApi = async (endpoint, options={}) =>{
  }
 
 
-// Remove the getMovieById function as we're using getMovieDetails
 export const getMovieById = async (id) => {
     const options = {
         method: 'GET',
