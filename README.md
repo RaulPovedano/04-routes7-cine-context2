@@ -40,3 +40,6 @@ cd 04-routes7-cine-context2
 docker-compose up --build
 ```
 
+3. La aplicacion estara disponible:
+
+- URL: http://localhost:5173
